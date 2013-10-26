@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE2CA9F3181A35A100117FCC /* CCThirdsACharn.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2CA9F2181A35A100117FCC /* CCThirdsACharn.m */; };
 		FEC2211D181790FB00E79499 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC2211C181790FB00E79499 /* Foundation.framework */; };
 		FEC2211F181790FB00E79499 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC2211E181790FB00E79499 /* CoreGraphics.framework */; };
 		FEC22121181790FB00E79499 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC22120181790FB00E79499 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		FEC2213E181790FB00E79499 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC22120181790FB00E79499 /* UIKit.framework */; };
 		FEC22146181790FB00E79499 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEC22144181790FB00E79499 /* InfoPlist.strings */; };
 		FEC22148181790FB00E79499 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC22147181790FB00E79499 /* GitTestTests.m */; };
+		FEF85DA7181A32FF00AF96BF /* CCOnceAgain.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF85DA6181A32FF00AF96BF /* CCOnceAgain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE2CA9F1181A35A100117FCC /* CCThirdsACharn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCThirdsACharn.h; path = GitTest/CCThirdsACharn.h; sourceTree = "<group>"; };
+		FE2CA9F2181A35A100117FCC /* CCThirdsACharn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCThirdsACharn.m; path = GitTest/CCThirdsACharn.m; sourceTree = "<group>"; };
 		FEC22119181790FB00E79499 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC2211C181790FB00E79499 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FEC2211E181790FB00E79499 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,8 @@
 		FEC22143181790FB00E79499 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		FEC22145181790FB00E79499 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FEC22147181790FB00E79499 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		FEF85DA5181A32FF00AF96BF /* CCOnceAgain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOnceAgain.h; sourceTree = "<group>"; };
+		FEF85DA6181A32FF00AF96BF /* CCOnceAgain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOnceAgain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,10 @@
 		FEC22110181790FB00E79499 = {
 			isa = PBXGroup;
 			children = (
+				FE2CA9F1181A35A100117FCC /* CCThirdsACharn.h */,
+				FE2CA9F2181A35A100117FCC /* CCThirdsACharn.m */,
+				FEF85DA5181A32FF00AF96BF /* CCOnceAgain.h */,
+				FEF85DA6181A32FF00AF96BF /* CCOnceAgain.m */,
 				FEC22122181790FB00E79499 /* GitTest */,
 				FEC22141181790FB00E79499 /* GitTestTests */,
 				FEC2211B181790FB00E79499 /* Frameworks */,
@@ -253,6 +263,8 @@
 				FEC2212D181790FB00E79499 /* CCAppDelegate.m in Sources */,
 				FEC22129181790FB00E79499 /* main.m in Sources */,
 				FEC22133181790FB00E79499 /* CCViewController.m in Sources */,
+				FE2CA9F3181A35A100117FCC /* CCThirdsACharn.m in Sources */,
+				FEF85DA7181A32FF00AF96BF /* CCOnceAgain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +473,7 @@
 				FEC2214D181790FB00E79499 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEC2214E181790FB00E79499 /* Build configuration list for PBXNativeTarget "GitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +482,7 @@
 				FEC22150181790FB00E79499 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
